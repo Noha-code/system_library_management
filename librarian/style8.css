@@ -1,0 +1,75 @@
+/* ---- Styles généraux ---- */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('https://archea.fr/wp-content/uploads/2021/10/bibliotheque-encastree-salon-1600x1132.jpg');
+    padding: 30px;
+}
+
+/* ---- Conteneur principal ---- */
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+/* ---- Titres ---- */
+h2 {
+    color: #254978;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ---- Boîte des statistiques ---- */
+.stats-box {
+    background: #254978;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ---- Tableau ---- */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background: #007bff;
+    color: white;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* ---- Bouton retour ---- */
+.btn-home {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.btn-home:hover {
+    background: linear-gradient(135deg, #ff1493, #ff5964);
+    transform: scale(1.08);
+}

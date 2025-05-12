@@ -1,0 +1,124 @@
+/* ---- Styles généraux ---- */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('https://archea.fr/wp-content/uploads/2021/10/bibliotheque-encastree-salon-1600x1132.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---- Conteneur principal aligné à gauche ---- */
+.container {
+    background: rgba(255, 255, 255, 0.92);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 50px; /* Aligner à gauche */
+}
+
+/* ---- Table des réservations ---- */
+.table-responsive {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+}
+
+thead {
+    background: #254978;
+    color: white;
+}
+
+th, td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ---- Badges état ---- */
+.badge {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bg-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.bg-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* ---- Bouton suppression ---- */
+.btn-danger {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-danger:hover {
+    transform: scale(1.08);
+}
+
+/* ---- Bouton retour stylisé ---- */
+.pagination {
+    text-align: center;
+    margin-top: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page-link {
+    display: inline-block;
+    padding: 14px 20px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.page-link:hover {
+    background: linear-gradient(135deg, #ff1493, #ff5964);
+    transform: scale(1.08);
+}
+/* ---- Bouton retour stylisé ---- */
+.btn-home {
+    display: inline-block;
+    padding: 14px 20px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.btn-home:hover {
+    background: linear-gradient(135deg, #ff1493, #ff5964);
+    transform: scale(1.08);
+}
